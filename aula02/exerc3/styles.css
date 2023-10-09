@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+form {
+    border: 22px double red;
+    padding: 30px;
+    width: 400px;
+}
+
+.input-amarelo {
+    font-size: 18pt;
+    background-color: yellow;
+    margin-bottom: 1px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    font-size: 12pt;
+}

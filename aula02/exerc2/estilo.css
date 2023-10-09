@@ -1,0 +1,29 @@
+.titulo{
+
+    border: 2px solid black;
+    background-color: rgb(33, 33, 70);
+    color: white;
+    text-align: center;
+
+}
+
+.foto{
+
+    border: 2px solid black;
+    width: 360px;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+
+.encerramento{
+
+    border: 2px solid black;
+    background-color: rgb(0, 255, 255);
+    height: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+
+}
