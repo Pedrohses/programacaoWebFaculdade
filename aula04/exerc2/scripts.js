@@ -22,8 +22,9 @@ document.getElementById("btnCopiar").addEventListener("click", function () {
 
 // Evento de clique no botão "Apagar Texto"
 document.getElementById("btnApagar").addEventListener("click", function () {
-    var targetId = this.getAttribute("data-target"); // Obtém o valor do atributo data-target
-    var paragrafoAlvo = document.getElementById(targetId);
+    var paragrafos = document.querySelectorAll("p");
+    var indiceAleatorio = Math.floor(Math.random() * paragrafos.length);
+    var paragrafoAlvo = paragrafos[indiceAleatorio];
 
     if (paragrafoAlvo) {
         paragrafoAlvo.textContent = "";
